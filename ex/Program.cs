@@ -3,7 +3,7 @@
 
 string[] inputArray = new string[7] { "Hello, world!", "123", "IT", ":)", "data science", "2+2", "time" };
 string[] resultArray = new string[inputArray.Length];
-resultArray = FilterArray(inputArray,resultArray);
+resultArray = FilterArray(inputArray, resultArray);
 PrintArray(resultArray);
 
 string[] FilterArray(string[] input, string[] output)
